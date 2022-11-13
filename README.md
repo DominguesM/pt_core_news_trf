@@ -45,3 +45,18 @@ Portuguese transformer pipeline ([neuralmind/bert-base-portuguese-cased](https:/
 | `SENTS_P` | 93.49 |
 | `SENTS_R` | 94.28 |
 | `SENTS_F` | 93.88 |
+
+## Usage
+
+
+```python
+!pip install https://huggingface.co/dominguesm/pt_core_news_trf/resolve/main/pt_core_news_trf-any-py3-none-any.whl
+
+# Using spacy.load().
+import spacy
+nlp = spacy.load("pt_core_news_trf")
+
+# Importing as module.
+import pt_core_news_trf
+nlp = pt_core_news_trf.load()
+```
