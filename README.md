@@ -1,5 +1,7 @@
 # Portuguese Transformer (Spacy pipeline)
 
+**NOTE**: For the model training process see [Training](./TRAINING.md)
+
 Portuguese transformer pipeline ([neuralmind/bert-base-portuguese-cased](https://huggingface.co/neuralmind/bert-base-portuguese-cased)). Components: transformer, morphologizer, parser, ner, attribute_ruler, lemmatizer (trainable_lemmatizer).
 
 | Feature | Description |
@@ -60,3 +62,5 @@ nlp = spacy.load("pt_core_news_trf")
 import pt_core_news_trf
 nlp = pt_core_news_trf.load()
 ```
+
+
